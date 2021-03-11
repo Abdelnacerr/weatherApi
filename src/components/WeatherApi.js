@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function WeatherCard() {
+function WeatherApi() {
   const classes = useStyles();
   const [city, setCity] = useState("Melbourne");
   const [results, setResults] = useState(null);
@@ -44,7 +44,7 @@ function WeatherCard() {
       onSearch();
     }
   };
-
+  console.log(results);
   return (
     <>
       {/* Search input for city */}
@@ -167,4 +167,4 @@ function WeatherCard() {
   );
 }
 
-export default WeatherCard;
+export default WeatherApi;

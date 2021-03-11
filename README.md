@@ -1,7 +1,7 @@
 # Getting Started 
 
 
-# git clone
+# git clone repo
 
 # npm install @material-ui/core/   @material-ui/icons  fontsource-roboto moment
 
